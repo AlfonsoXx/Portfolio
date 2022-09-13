@@ -1,0 +1,1 @@
+stripe has reasonable fees & intergartion template for UI is already done
