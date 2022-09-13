@@ -1,0 +1,1 @@
+exports.displayUpdatePage = (req, res) => res.render("updateBooks.ejs")
