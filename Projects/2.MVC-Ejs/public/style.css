@@ -5,6 +5,7 @@ a {
   h1,
   h2 {
     text-align: center;
+    color:olive
   }
   
   form {
@@ -33,7 +34,23 @@ a {
     height: 100px;
   }
 
-  img {
-    background-position: center;
-    background-color: aqua;
+
+  .image {
+    background-image: url(./assets/libraryBook.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-color: thistle;
+    overflow: hidden;
+    width: 100%;
+    align-items: center;
+    height:1000px
   }
+
+  /*need to decide if image is assigned to body or div 
+  /* div {
+    width: 100%;
+    align-items: center;
+    height:100%
+  } */
