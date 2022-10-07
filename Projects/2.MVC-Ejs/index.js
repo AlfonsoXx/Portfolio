@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 
+
 app.use(express.static("assets"));
 app.use(express.static("public"));
 app.use(express.json());
@@ -10,7 +11,7 @@ require('./services/mongoConnection')()
 
 app.get("/", (req, res) => res.render("home.ejs"));
 
-const deleteRoutes = require('./routes/deleteRoute')
+const deleteRoutes = require('./routes/deleteRoutes')
 const createRoutes = require('./routes/createRoutes')
 const updateRoutes = require('./routes/updateRoutes')
 const readRoutes = require('./routes/readRoutes')
