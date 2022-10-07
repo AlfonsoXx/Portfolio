@@ -1,11 +1,13 @@
-a {
-    margin: 1%;
+
+  .nav.nav-tabs {
+    
+    align-items: center;
+    text-align: center;
   }
   
-  h1,
-  h2 {
+  h1, h2 {
     text-align: center;
-    color:olive
+    color: #a0785a 
   }
   
   form {
@@ -35,8 +37,8 @@ a {
   }
 
 
-  .image {
-    background-image: url(./assets/libraryBook.jpeg);
+  .homebackground {
+    background-image: url(./images/books.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -45,8 +47,16 @@ a {
     overflow: hidden;
     width: 100%;
     align-items: center;
-    height:1000px
+    height:1000px;
   }
+
+  /* body{
+    background-image: url(./images/pic10.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  } */
 
   /*need to decide if image is assigned to body or div 
   /* div {
