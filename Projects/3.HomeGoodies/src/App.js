@@ -12,7 +12,6 @@ function App() {
       <Navbar/>
       <RecipeList/>
 
-         {/* Code links so on click it route to payments page */}
         <ul> 
           <li><Link to="/home">Home</Link></li> 
           <li><Link to="/truffle">Truffle</Link></li> 
