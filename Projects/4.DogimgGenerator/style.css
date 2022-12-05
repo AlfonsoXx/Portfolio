@@ -9,7 +9,7 @@ img {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    color: rgb(228, 246, 234);
+    color: rgb(99, 99, 121);
     font-family: Oswald;
 }
 
@@ -21,8 +21,8 @@ h1 {
 
 #btn {
     margin: 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #7bc6a2;
+    color: rgb(27, 23, 23);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
