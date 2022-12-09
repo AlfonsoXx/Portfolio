@@ -1,0 +1,27 @@
+<%-include('partials/header')  %>
+
+
+<div class=" h-80 p-3 bg-light border rounded-3">
+    <div class="container">
+        <h1>Ev Charger</h1>        
+    </div> 
+
+    <!-- For test purpose only -->
+    <form id="form1">        
+        <input id="lati" type="text"  placeholder="Origin"/> <br>
+        <input id="long" type="text"  placeholder="Destination"/> <br>      
+      </form>
+      <button id="find" onclick="calcRoute()" >Find</button>
+
+      <!-- This is the actual location to receive the address from which we start searching. -->
+    <form>            
+        <div id="container1">   
+            <input id="addressBox" type="search"  placeholder="Address to  begin search"/>
+            <!-- This div receives the map. -->
+            <div id="googleMap">
+                               
+            </div>
+        </div>  
+    </form>
+</div>
+<%- include('partials/footer') %>
