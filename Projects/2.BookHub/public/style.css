@@ -31,11 +31,14 @@
   }
   
   .card {
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 4px 4px 10px rgb(47, 88, 59);
     width: 300px;
     height: 100px;
   }
 
+  #cardBackground{
+    color: rgb(121, 73, 54);
+  }
 
   .homebackground {
     background-image: url(./images/books.jpg);
@@ -50,17 +53,7 @@
     height:1000px;
   }
 
-  /* body{
-    background-image: url(./images/pic10.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-  } */
+  #btn {
+    background-color: rgb(54, 121, 57);
+  }
 
-  /*need to decide if image is assigned to body or div 
-  /* div {git
-    width: 100%;
-    align-items: center;
-    height:100%
-  } */
