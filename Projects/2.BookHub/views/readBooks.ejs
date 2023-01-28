@@ -3,10 +3,14 @@
     <h2>Display Books</h2>
 
     <% books.forEach(element => { %>
-    <div class="card"> 
-      <p>Title: <%= element.title %> </p>
-      <p> Author: <%= element.author %> </p>
-      <p>ISBN: <%= element.isbn %> </p>
-  </div>
+      <div class="card border mb-3" style="max-width: 18rem;"> 
+        <div id="cardBackground" class="">
+          <div class="">
+            <h5 class="card-header">Title: <%= element.title %> </h5>
+            <p>Author: <%= element.author %> </p>
+            <p>ISBN: <%= element.isbn %> </p>
+          </div>
+        </div>
+      </div>
     <% }) %> 
 <%-include('partials/footer')  %> 
