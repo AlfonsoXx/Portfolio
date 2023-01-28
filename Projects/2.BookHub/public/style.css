@@ -37,7 +37,8 @@
   }
 
   #cardBackground{
-    color: rgb(121, 73, 54);
+    color: rgb(22, 22, 22);
+    background-image: url(./images/glasses_book.jpeg);
   }
 
   .homebackground {
