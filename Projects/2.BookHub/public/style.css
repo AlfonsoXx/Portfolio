@@ -11,9 +11,19 @@
   }
   
   form {
-    border: black 3px solid;
-    width: 50%;
-    margin: 0 auto;
+    border: rgb(59, 90, 52) 3px solid;
+    width: 30%;
+    height: auto;
+    margin: auto ;
+    
+  }
+
+  .form-box{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
   }
   
   input {
@@ -23,7 +33,7 @@
   
   button {
     margin: 1%;
-    background-color: lightgreen;
+    background-color: rgb(76, 118, 66);
   }
   
   p {
@@ -54,7 +64,8 @@
     height:1000px;
   }
 
-  #btn {
-    background-color: rgb(54, 121, 57);
+  #deleteBtn {
+    background-color: rgb(84, 128, 97);
+    text-align: right;
   }
 
