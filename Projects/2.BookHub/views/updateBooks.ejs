@@ -1,4 +1,19 @@
 <%- include('partials/header')  %> 
 
     <h2>Update a Book</h2>
+      <form class="/update ">
+        <% books.forEach(element => { %>
+          
+            <div id="cardBackground" class="">
+              <div class="">
+                <h5 class="card-header">Title: <%= element.title %> </h5>
+                <p>Author: <%= element.author %> </p>
+                <p>ISBN: <%= element.isbn %> </p>
+                <a href="#" class="btn" id="deleteBtn">Edit</a>
+              </div>
+            </div>
+          
+        <% }) %> 
+      </form>
+    
 <%-include('partials/footer')  %> 
