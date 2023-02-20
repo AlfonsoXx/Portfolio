@@ -10,11 +10,10 @@
     color: #a0785a 
   }
   
-  form {
-    border: rgb(59, 90, 52) 3px solid;
-    width: 30%;
-    height: auto;
-    margin: auto ;
+  #center {
+    margin: auto;
+    justify-content: center;
+
     
   }
 
