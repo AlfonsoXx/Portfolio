@@ -3,16 +3,16 @@
     <h2>Update a Book</h2>
       <form class="/update ">
         <% books.forEach(element => { %>
-          
-            <div id="cardBackground" class="">
-              <div class="">
-                <h5 class="card-header">Title: <%= element.title %> </h5>
-                <p>Author: <%= element.author %> </p>
-                <p>ISBN: <%= element.isbn %> </p>
-                <a href="#" class="btn" id="deleteBtn">Edit</a>
+            <div  class="card border mb-3" style="max-width: 18rem;" >
+              <div id="cardBackground">
+                <div id="center" >
+                  <h5 class="card-header">Title: <%= element.title %> </h5>
+                  <p>Author: <%= element.author %> </p>
+                  <p>ISBN: <%= element.isbn %> </p>
+                  <a href="#" class="btn" id="deleteBtn">Edit</a>
+                </div>
               </div>
             </div>
-          
         <% }) %> 
       </form>
     
