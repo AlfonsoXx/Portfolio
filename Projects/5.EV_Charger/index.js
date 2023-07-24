@@ -58,7 +58,7 @@ app.get("/", (req,res) => {
 })
 
 
-let endpoint = "https://developer.nrel.gov/api/alt-fuel-stations/v1.json?fuel_type=ELEC&state=TX&limit=200&api_key=C0gHrFk9Qpezmzv2GeGPtDqYQ8VgYpUqvEENDMwN"
+let endpoint = "https://developer.nrel.gov/api/alt-fuel-stations/v1.json?fuel_type=ELEC&state=TX&limit=200&api_key=iyda5Ey0U4lUqwQgA42endXil0UcIKJ1mZ8JEzG7"
 
 
 app.get("/home", isLoggedIn, (req,res) => {
