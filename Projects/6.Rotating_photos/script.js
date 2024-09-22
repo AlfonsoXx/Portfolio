@@ -1,4 +1,6 @@
-var imageArray = ["./img/background1.jpeg", "./img/background2.jpeg", "./img/background3.jpeg"]
+
+var imageArray = ["./img/background1.jpeg", "./img/background2.jpeg", "./img/background3.jpeg", 
+"./img/me.jpg", "./img/pic01.jpg", "./img/pic02.jpg", "./img/pic03.jpg", "./img/pic04.jpg"]
 var index = 0;
 
 function rotateImage(){
@@ -9,4 +11,4 @@ function rotateImage(){
     }
 }
 
-setInterval(rotateImage, 3000)
+setInterval(rotateImage, 2000)
