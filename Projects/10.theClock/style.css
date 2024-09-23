@@ -1,0 +1,10 @@
+.clockColor {
+    position: absolute; /* Keep the text absolutely positioned */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center text */
+    color: white;
+    font-size: 54px;
+    text-align: center; /* Center text alignment */
+    z-index: 2;
+}
